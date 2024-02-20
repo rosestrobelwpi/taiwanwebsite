@@ -1,0 +1,46 @@
+.text-white ul {
+    display: flex;
+    justify-content: space-around;
+}
+.text-white ul li {
+    list-style: none;
+    font-family: "Source Sans Pro", Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+.text-white ul li a {
+    color: white;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    font-size: 20px;
+    font-family: "Source Sans Pro", Helvetica, sans-serif;
+}
+
+.img-class {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+}
+
+.img-class img{
+    width: 100%;
+    height: 60vh;
+}
+
+.text-content {
+    display: flex;
+    width: 50%;
+    margin-top: 3rem;
+}
+
+.text-content p {
+    font-size: 22px;
+    line-height: 40px;
+}
